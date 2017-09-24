@@ -1,0 +1,321 @@
+/**
+ * Place your custom styles here.
+ */
+
+ body{
+ 	font-family: 'Open Sans', sans-serif;
+	color: #334141;
+	font-size: 13px;
+	line-height: 1;
+ }
+
+ .container{
+ 	width:1200px; 
+ }
+.top-bar{
+	max-height: 43px;
+	border-bottom: 1px solid #efefef;
+}
+
+.commerce-menu li:first-child a{
+	border-left:none;
+}
+
+.commerce-menu li a{
+	display: inline-block;
+    padding: 0px 12px;
+    text-decoration: none;
+    color:#334141;
+    font-weight: 100;
+    font-size: 12px;
+    border-left: 1px solid #efefef;
+}
+
+.commerce-menus li:hover{
+	color: blue;
+	background: transparent;
+}
+
+.region-top-bar .list-inline{
+	margin: 0;
+	padding: 12px 0px;
+}
+
+.list-inline>li{
+	padding: 0;
+}
+
+.block-menu.basic-commerce-menus{
+	float: right;
+	margin-right:2%; 
+}
+
+.block-menu.basic-commerce-menus .menu li a{
+	padding:0px 5px;
+	display: inline-block;
+	text-transform: uppercase;
+    text-decoration: none;
+    color:#334141;
+    font-weight: 100;
+    font-size: 12px;
+    border-left: 1px solid #efefef;
+}
+
+.block-menu.basic-commerce-menus .menu li:first-child a{
+	border-left: none;
+}
+
+.basic-commerce-menus .menu li a:before{
+	margin-right: 5px;
+}
+.block-menu.basic-commerce-menus .menu li{
+	float: left;
+	padding: 12px 7px;
+}
+
+.region-navigation .views-exposed-widget {
+	padding: 0;
+}
+
+.region-navigation .views-exposed-widgets .views-submit-button button{
+	margin: 0;
+} 
+
+.mid-header .logo-div{
+	padding: 42px 15px;
+}
+
+.block.customer-support {
+    padding: 54px 0px 50px;
+}
+
+.customer-support .number{
+	font-size: 120%;
+    line-height: 150%;
+    font-weight: 600;
+    font-family: "Rubik",helvetica,arial,sans-serif!important
+
+}
+
+.block.search-block{
+	padding: 43.75px 0px;
+	float: left;
+}
+
+.customer-support .music-icon{
+	display: inline-block;
+    float: left;
+    font-size: 30px;
+    padding: 2px 10px;
+}
+
+.flaticon-headphones:before{
+	margin:0;
+	font-size: 29px;
+	font-weight: 600;
+	display: inline-block;
+
+}
+
+.block.customer-support .cs-text{
+	display: block;
+	padding-right: 7px;
+}
+.block.search-block .views-exposed-widget .views-widget-filter-field_product_category{
+	padding: 3px 0;
+}
+
+.block.search-block .form-item-search-api-views-fulltext{
+	width: 374px;
+	padding: 3px 0px;
+}
+
+.block.search-block .form-item-search-api-views-fulltext .form-control{
+	height: 40px;
+}
+.block.search-block .views-submit-button button{
+	height: 44px;
+	margin-top: 1px;
+	width: 55px;
+	background-image: none;
+	background-color: #1DB5C3;
+	padding: 0px 11px;
+}
+
+.search-block .views-exposed-form .views-exposed-widget{
+	padding: 0;
+}
+
+.block.search-block .form-type-select{
+	width: 125px;
+	padding: 3px 0px;
+}
+
+.block.search-block .views-submit-button button:before{
+          content: '\f002';
+    font-size: 21px;
+    font-family: FontAwesome;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0px 0px 0px 10px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 18px;
+    background-color: #1DB5C3;
+    color: #fff;
+    border-radius: 4px;
+    right: 46px;
+    top: 44px;
+    position: absolute;
+}
+
+.block.search-block .form-type-select .form-select{
+	border-radius: 0;
+	border-left: none;
+	height:40px;
+}
+
+.block.cart-block{
+	display: inline-block;
+	padding: 39.5px 44px;
+    margin-top: 10px;
+}
+
+.block.cart-block .view-empty p{
+	display: none;
+}
+
+.line-item-summary:before{
+	display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f218";
+    display: inline-block;
+    padding: 15px 16px;
+    background-color: #1DB5C3;
+    color: #fff;
+    border-radius: 4px;
+    left: 15px;
+    top: 35px;
+    position: absolute;
+}
+
+.menu.nav.navbar-nav li a{
+	padding: 20px 35px;
+	margin: 0;
+	font-size: 115%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #334141;
+    border-left: 1px solid #efefef;
+}
+
+.menu.nav.navbar-nav li:first-child a{
+	border-left: none;
+}
+
+.block.social_menu{
+	display: inline-block;
+	padding: 15px 0;
+}
+
+.block.social_menu .menu li{
+	float: left;
+}
+
+.social_menu{
+	list-style: none;
+    float: left;
+}
+
+.block.social_menu li a{
+	padding: 0px 7px;
+	display: inline-block;
+	color:#000;
+	text-decoration: none;
+}
+
+.navbar-collapse .menu .dropdown-menu li a{
+	padding:0;
+}
+.navbar-collapse .menu .dropdown-menu li{
+	width: 200px;
+}
+
+.menu .dropdown.open{
+	background: none;
+}
+
+.navbar-collapse .menu .dropdown-menu{
+	left: 46px;
+	padding: 20px 0px 20px 30px;
+}
+
+.navbar-collapse .menu>li:hover .dropdown-menu{
+	display: block;
+	-webkit-transition: all 350ms ease;
+    -moz-transition: all 350ms ease;
+    transition: all 350ms ease;
+}
+
+.Primary-main-menu .tb-megamenu{
+	background-color: #fff; 
+}
+
+.Primary-main-menu .tb-megamenu .tb-megamenu-nav li a{
+	padding: 20px 35px;
+	margin: 0;
+	border-color: #efefef;
+	font-size: 115%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #334141;
+    border-left: 1px solid #efefef;
+}
+
+.Primary-main-menu .mega-dropdown-menu .mega-inner .tb-megamenu-subnav li a{
+	text-align: left;
+	line-height: 25px;
+	color: #334141;
+    text-decoration: none;
+    transition: all 350ms ease;
+    font-size: 1em;
+    text-transform:capitalize;
+    font-weight: 400;
+    padding:0px 0px 0px 30px;
+    border:none;
+    font-family: "Rubik",helvetica,arial,sans-serif!important;
+}
+
+.Primary-main-menu .mega-dropdown-menu .mega-inner .tb-megamenu-subnav li a:hover{
+	background: none;
+	color: #296dc1;
+	padding-left:33px;
+}
+
+.Primary-main-menu .tb-megamenu .tb-megamenu-nav li:hover mega-inner{
+		display: block;
+	-webkit-transition: all 350ms ease;
+    -moz-transition: all 350ms ease;
+    transition: all 350ms ease;
+}
+
+.Primary-main-menu .mega-dropdown-menu .mega-dropdown-inner .mega-inner{
+	padding: 20px 0px;
+}
+
+.tb-megamenu .nav li.dropdown.active > .dropdown-toggle, .tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle, .tb-megamenu .nav > li.dropdown.open.active > a:hover{
+	background-color: #1DB5C3;
+	border-color: #efefef;
+	color: #fff;
+}
+
+.tb-megamenu-submenu .dropdown-menu .mega-dropdown-menu .nav-child{
+	margin-top: 20px;
+    border-top: 1px solid #B6B6B6;
+}
